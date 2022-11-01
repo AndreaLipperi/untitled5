@@ -39,7 +39,7 @@ int main() {
     string sql;
 
     // Save the result of opening the file
-    rc = sqlite3_open("/Users/dario/CLionProjects/untitled6/altraprova.db", &db);
+    rc = sqlite3_open("/Users/andrealipperi/CLionProjects/untitled5/prova.db", &db);
 
     if( rc ){
         // Show an error message
